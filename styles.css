@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+    background-color: rgb(241, 222, 240);
+}
+.main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+}
+
+.box{
+    border: 1px solid black;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10%;
+}
+.box p{
+    padding: 6px;
+}
+
+.box--red{
+    background-color: red;
+}
+.box--green{
+    background-color:green;
+}
+
+.user{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.user p{
+    font-size: 1.5rem;
+}
+.user button{
+    margin: 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+input{
+    font-size: 3rem;
+    border-radius: 10px;
+    text-align: center;
+    width: 70%;
+}
